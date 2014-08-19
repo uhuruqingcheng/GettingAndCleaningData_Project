@@ -47,6 +47,7 @@ tidy_data <- Merges[,c(1,2, grep('mean()',names(Merges)),
 # 5. Creates a second, independent tidy data set with the average of each 
 # variable for each activity and each subject. 
 #===============================================================================
+library(reshape2)
 tidy_data_2 <- melt(tidy_data, id=1:2, measure.vars = 3:68)
 
 # cast data into data frame
