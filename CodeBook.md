@@ -56,4 +56,4 @@ What we get is the average value for each couple {subject, activity} of the 66 s
 
 Having 30 subjects, 6 activites and 66 features, we finally get a 180 x 68 tidy data set.
 
-Then by using **write.table**function, we create a text file containing this new tidy data set, which is the final *tidy_data.txt* .
+Then by using **write.table** function, we create a text file containing this new tidy data set, which is the final *tidy_data.txt* .
